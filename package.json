@@ -1,12 +1,12 @@
 {
-  "name": "prettify-compact",
+  "name": "vscode-pretty-compact",
   "displayName": "Pretty Compact JSON prettifier",
   "description": "Fork of Prettify to use a more compact format",
   "version": "1.0.0",
   "icon": "icon.png",
   "repository": {
     "type": "git",
-    "url": "https://github.com/k-yle/vscode-prettify-json.git"
+    "url": "https://github.com/k-yle/vscode-pretty-compact.git"
   },
   "publisher": "k-yle",
   "engines": {
