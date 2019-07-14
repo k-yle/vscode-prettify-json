@@ -1,0 +1,21 @@
+env:
+  es6: true
+  node: true
+
+extends:
+- airbnb-base
+- plugin:@typescript-eslint/recommended
+parser: "@typescript-eslint/parser"
+plugins:
+- "@typescript-eslint"
+
+rules:
+  prefer-destructuring: warn
+
+  no-console: 'off'
+  import/no-unresolved: 'off'
+  import/prefer-default-export: 'off'
+  indent: 'off'
+  "@typescript-eslint/indent":
+  - error
+  - 2
